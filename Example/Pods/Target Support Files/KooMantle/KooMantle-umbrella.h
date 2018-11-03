@@ -14,7 +14,7 @@
 #import "EXTRuntimeExtensions.h"
 #import "EXTScope.h"
 #import "metamacros.h"
-#import "Mantle.h"
+#import "KooMantle.h"
 #import "MTLJSONAdapter.h"
 #import "MTLModel+NSCoding.h"
 #import "MTLModel.h"

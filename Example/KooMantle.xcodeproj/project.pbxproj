@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D5B91422E710C6CEBF9134B /* Pods_KooMantle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3F4F78DAF93A6B5A13EF55 /* Pods_KooMantle_Example.framework */; };
+		3FFE2B4E53D31A7EFE48363D /* Pods_KooMantle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC03D108A6F705C0A6F14DB /* Pods_KooMantle_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E3739C6F571598F8EED33216 /* Pods_KooMantle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18449412AB11AB1A0B1E1B6 /* Pods_KooMantle_Example.framework */; };
-		E9324599FBFD257426A9BE29 /* Pods_KooMantle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF465949BF0E4B175C2543F5 /* Pods_KooMantle_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D426BC7CCFA797182E459F7 /* Pods-KooMantle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Example.debug.xcconfig"; path = "Target Support Files/Pods-KooMantle_Example/Pods-KooMantle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		14D30273BE877E0DA425FA10 /* Pods-KooMantle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Tests.release.xcconfig"; path = "Target Support Files/Pods-KooMantle_Tests/Pods-KooMantle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		17CCA75B156F2F9892C4D305 /* Pods-KooMantle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Example.release.xcconfig"; path = "Target Support Files/Pods-KooMantle_Example/Pods-KooMantle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1EC95871E873107D4A211A8E /* KooMantle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KooMantle.podspec; path = ../KooMantle.podspec; sourceTree = "<group>"; };
+		48FC1AAB02B1B7BEDE97F0F0 /* Pods-KooMantle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KooMantle_Tests/Pods-KooMantle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KooMantle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KooMantle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,16 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		700F3137899AF92C789B6708 /* Pods-KooMantle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Tests.release.xcconfig"; path = "Target Support Files/Pods-KooMantle_Tests/Pods-KooMantle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6C3F4F78DAF93A6B5A13EF55 /* Pods_KooMantle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KooMantle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83C63C151B5195877D01F399 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		841E70E2061D84AF17ECB64B /* KooMantle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KooMantle.podspec; path = ../KooMantle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BC03D108A6F705C0A6F14DB /* Pods_KooMantle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KooMantle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B01987B9610BB38D1DFE88FD /* Pods-KooMantle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Example.release.xcconfig"; path = "Target Support Files/Pods-KooMantle_Example/Pods-KooMantle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B3BC98DA14EAEB4D11720F8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C18449412AB11AB1A0B1E1B6 /* Pods_KooMantle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KooMantle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D04FBF8619060E6ABA5BA5FE /* Pods-KooMantle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KooMantle_Tests/Pods-KooMantle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF465949BF0E4B175C2543F5 /* Pods_KooMantle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KooMantle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911F9F084EC841DAF4B414EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A79E2975DA8C3658527B34F4 /* Pods-KooMantle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KooMantle_Example.debug.xcconfig"; path = "Target Support Files/Pods-KooMantle_Example/Pods-KooMantle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F740DDAC77B1DDF80F0D9901 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E3739C6F571598F8EED33216 /* Pods_KooMantle_Example.framework in Frameworks */,
+				2D5B91422E710C6CEBF9134B /* Pods_KooMantle_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E9324599FBFD257426A9BE29 /* Pods_KooMantle_Tests.framework in Frameworks */,
+				3FFE2B4E53D31A7EFE48363D /* Pods_KooMantle_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				F3D2A90575EB34FBE7363E79 /* Pods */,
+				65A2B8E44AF4A3166FB372D8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C18449412AB11AB1A0B1E1B6 /* Pods_KooMantle_Example.framework */,
-				DF465949BF0E4B175C2543F5 /* Pods_KooMantle_Tests.framework */,
+				6C3F4F78DAF93A6B5A13EF55 /* Pods_KooMantle_Example.framework */,
+				7BC03D108A6F705C0A6F14DB /* Pods_KooMantle_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,21 +178,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				841E70E2061D84AF17ECB64B /* KooMantle.podspec */,
-				83C63C151B5195877D01F399 /* README.md */,
-				B3BC98DA14EAEB4D11720F8F /* LICENSE */,
+				1EC95871E873107D4A211A8E /* KooMantle.podspec */,
+				F740DDAC77B1DDF80F0D9901 /* README.md */,
+				911F9F084EC841DAF4B414EE /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		F3D2A90575EB34FBE7363E79 /* Pods */ = {
+		65A2B8E44AF4A3166FB372D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D426BC7CCFA797182E459F7 /* Pods-KooMantle_Example.debug.xcconfig */,
-				B01987B9610BB38D1DFE88FD /* Pods-KooMantle_Example.release.xcconfig */,
-				D04FBF8619060E6ABA5BA5FE /* Pods-KooMantle_Tests.debug.xcconfig */,
-				700F3137899AF92C789B6708 /* Pods-KooMantle_Tests.release.xcconfig */,
+				A79E2975DA8C3658527B34F4 /* Pods-KooMantle_Example.debug.xcconfig */,
+				17CCA75B156F2F9892C4D305 /* Pods-KooMantle_Example.release.xcconfig */,
+				48FC1AAB02B1B7BEDE97F0F0 /* Pods-KooMantle_Tests.debug.xcconfig */,
+				14D30273BE877E0DA425FA10 /* Pods-KooMantle_Tests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "KooMantle_Example" */;
 			buildPhases = (
-				09750F3312A3A54CD9BEC8A9 /* [CP] Check Pods Manifest.lock */,
+				61D21F64CAD2096D74B0FFC9 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				27FD1FB8F04BEAF151544DF3 /* [CP] Embed Pods Frameworks */,
+				113DF1AA996191973A56BB56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "KooMantle_Tests" */;
 			buildPhases = (
-				47FCAC388939FBA171E7FF41 /* [CP] Check Pods Manifest.lock */,
+				A21392EF26C4D2EE3FDFBF25 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -294,29 +295,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09750F3312A3A54CD9BEC8A9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KooMantle_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27FD1FB8F04BEAF151544DF3 /* [CP] Embed Pods Frameworks */ = {
+		113DF1AA996191973A56BB56 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +317,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KooMantle_Example/Pods-KooMantle_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		47FCAC388939FBA171E7FF41 /* [CP] Check Pods Manifest.lock */ = {
+		61D21F64CAD2096D74B0FFC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KooMantle_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21392EF26C4D2EE3FDFBF25 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,7 +495,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D426BC7CCFA797182E459F7 /* Pods-KooMantle_Example.debug.xcconfig */;
+			baseConfigurationReference = A79E2975DA8C3658527B34F4 /* Pods-KooMantle_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -509,7 +510,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B01987B9610BB38D1DFE88FD /* Pods-KooMantle_Example.release.xcconfig */;
+			baseConfigurationReference = 17CCA75B156F2F9892C4D305 /* Pods-KooMantle_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -524,7 +525,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D04FBF8619060E6ABA5BA5FE /* Pods-KooMantle_Tests.debug.xcconfig */;
+			baseConfigurationReference = 48FC1AAB02B1B7BEDE97F0F0 /* Pods-KooMantle_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +549,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 700F3137899AF92C789B6708 /* Pods-KooMantle_Tests.release.xcconfig */;
+			baseConfigurationReference = 14D30273BE877E0DA425FA10 /* Pods-KooMantle_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

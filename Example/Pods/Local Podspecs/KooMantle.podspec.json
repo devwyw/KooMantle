@@ -1,18 +1,18 @@
 {
   "name": "KooMantle",
   "version": "0.1.0",
-  "summary": "KooMantle.",
+  "summary": "A short description of KooMantle.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/devwyw/KooMantle",
+  "homepage": "https://github.com/weiyanwu/KooMantle",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "weiyanwu": "devwyw@qq.com"
+    "weiyanwu": "weiyanwu@koolearn-inc.com"
   },
   "source": {
-    "git": "https://github.com/devwyw/KooMantle.git",
+    "git": "https://github.com/weiyanwu/KooMantle.git",
     "tag": "0.1.0"
   },
   "platforms": {
