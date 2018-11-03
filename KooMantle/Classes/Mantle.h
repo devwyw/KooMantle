@@ -14,14 +14,14 @@ FOUNDATION_EXPORT double MantleVersionNumber;
 //! Project version string for Mantle.
 FOUNDATION_EXPORT const unsigned char MantleVersionString[];
 
-#import <Mantle/MTLJSONAdapter.h>
-#import <Mantle/MTLModel.h>
-#import <Mantle/MTLModel+NSCoding.h>
-#import <Mantle/MTLValueTransformer.h>
-#import <Mantle/MTLTransformerErrorHandling.h>
-#import <Mantle/NSArray+MTLManipulationAdditions.h>
-#import <Mantle/NSDictionary+MTLManipulationAdditions.h>
-#import <Mantle/NSDictionary+MTLMappingAdditions.h>
-#import <Mantle/NSObject+MTLComparisonAdditions.h>
-#import <Mantle/NSValueTransformer+MTLInversionAdditions.h>
-#import <Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h>
+#import <KooMantle/MTLJSONAdapter.h>
+#import <KooMantle/MTLModel.h>
+#import <KooMantle/MTLModel+NSCoding.h>
+#import <KooMantle/MTLValueTransformer.h>
+#import <KooMantle/MTLTransformerErrorHandling.h>
+#import <KooMantle/NSArray+MTLManipulationAdditions.h>
+#import <KooMantle/NSDictionary+MTLManipulationAdditions.h>
+#import <KooMantle/NSDictionary+MTLMappingAdditions.h>
+#import <KooMantle/NSObject+MTLComparisonAdditions.h>
+#import <KooMantle/NSValueTransformer+MTLInversionAdditions.h>
+#import <KooMantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h>
