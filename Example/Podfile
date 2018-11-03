@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KooMantle_Example' do
+  pod 'KooMantle', :path => '../'
+
+  target 'KooMantle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

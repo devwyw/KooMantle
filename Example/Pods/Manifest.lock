@@ -1,0 +1,16 @@
+PODS:
+  - KooMantle (0.1.0)
+
+DEPENDENCIES:
+  - KooMantle (from `../`)
+
+EXTERNAL SOURCES:
+  KooMantle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KooMantle: 742231e5af786390dd3f9f26842ab67e9410bd8c
+
+PODFILE CHECKSUM: 72ed9f180dd7955941d8614bcb42a2aee0ee6999
+
+COCOAPODS: 1.6.0.beta.2

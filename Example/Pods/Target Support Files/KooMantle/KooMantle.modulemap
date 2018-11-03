@@ -1,0 +1,6 @@
+framework module KooMantle {
+  umbrella header "KooMantle-umbrella.h"
+
+  export *
+  module * { export * }
+}
